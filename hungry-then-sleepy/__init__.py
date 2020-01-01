@@ -20,6 +20,7 @@ def create_app(test_config=None):
 
     @app.route('/')
     def index():
-        return 'Hello, World!'
+        from flask import render_template
+        return render_template('index.html')
 
     return app
