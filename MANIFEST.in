@@ -1,0 +1,3 @@
+graft hungry-then-sleepy/static
+graft hungry-then-sleepy/templates
+global-exclude *.pyc
