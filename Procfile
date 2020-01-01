@@ -1,1 +1,1 @@
-web: gunicorn hungry-then-sleepy:create_app
+web: gunicorn hungry-then-sleepy:create_app()
